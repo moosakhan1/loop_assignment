@@ -1,0 +1,72 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ </head>
+ <body>
+    <script>
+        //   Prompt the user to enter their name
+            var name = prompt("Please enter your name:");
+
+        //     // Check if a name was entered-UI
+            if (name) {
+        //         // Generate the greeting message
+         var greetingMessage = `Hello, ! Welcome!`;
+
+        //         // Display the greeting message in the paragraph element
+                document.write(greetingMessage  + "<br>");
+
+             } else {
+        //         // Display a message if no name was entered
+                document.write("You didn't enter a name." + "<br>")
+             }
+
+        var default1 = "5";
+        //   for(var i=1; i<=10; i++){
+        //       document.write( default1 + " * " + i + "=" +  (i*default1) + "<br>" )
+        //   }
+       
+    
+
+         var table = prompt("Enter any number:",default1);
+        for(var i=1; i<=10; i++){
+            document.write(table + " * " + i + "=" +  (i*table) + "<br>" )
+    
+         }
+
+
+         document.write("<h2>subject total mark obtained mark percentage <h2>")
+
+         var subject1 = "English";
+         var subject2 = "Math";
+         var subject3 = "Urdu";
+
+
+        var num1 = 100;
+         var num2 = 100;
+         var num3 = 100;
+        
+
+         var obtainedMark = 54;
+         var obtainedMark1 = 54;
+         var obtainedMark2 = 48;
+
+       
+        var totalMark = num1 + num2 + num3
+        document.write(totalMark)
+
+        document.write("<br>")
+        var totalMark1 = obtainedMark + obtainedMark1 + obtainedMark2
+        document.write(totalMark1)
+        
+        document.write("<br>")
+        var totalPercentage = totalMark1 / totalMark * 100 
+        document.write(totalPercentage  + "%");
+
+
+    </script>
+    
+ </body>
+ </html>

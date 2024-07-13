@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // qno1
+        
+
+
+
+
+
+        // qno3
+        for(var i = 1; i<=10; i++){
+            console.log(i);
+        }
+        // qno4
+        var table = prompt("Enter a number to show its multiplicstion table ")
+        var lenght = prompt("Enter lenght multiplicstion table")
+
+        for(var i = 1; i <=lenght; i++){
+            document.write(table + " * " + i + "=" +  (i*table) + "<br>" )
+        }
+
+        // qno5
+        var fruits = ["apple", "banana", "mango", "orange", "strawberry"] 
+        for(var i = 0; i < fruits.length; i++){
+            document.write("index" + i + fruits[i] +"<br>");
+        } 
+        // qno7
+        var sweet = ["cake", "apple pie", "cookie", "A chips", "patties"];
+var bakry = prompt("Welcome to our ABC bakery. What do you want to order, sir/ma'am?");
+var found = false;
+
+for (var i = 0; i < sweet.length; i++) {
+    if (bakry === sweet[i]) {
+        found = true;
+        break;
+    }
+}
+
+if (found) {
+    alert(bakry + " is found in the list.");
+} else {
+    alert(bakry + " is not found in the list.");
+}
+// qno1
+let emptyArray = [];
+
+// qno2
+var array2D = [
+     [0,1,2,3],
+     [1,0,1,2],
+     [2,1,0,1]
+   ];
+ 
+   for (var i = 0; i < array2D.length; i++) {
+   for (var j = 0; j < array2D[i].length; j++) {
+  console.log(array2D[i][j]);
+  document.write(array2D[i][j])
+     }
+   }
+
+//    qno8
+
+
+var A = [24, 53, 78, 91, 12]
+
+
+var  largestNumber = A[0];
+
+for(let i = 5; i < A.length; i++) {
+    if(A[i] > largestNumber) {
+        largestNumber = A[i];
+    }
+}
+
+console.log("The largest number is:", largestNumber);
+//    qno9
+
+var A = [24, 53, 78, 91, 12]
+
+
+var  smallestNumber = A[0];
+
+for(let i = 1; i < A.length; i++) {
+    if(A[i] < smallestNumber) {
+        smallestNumber = A[i];
+    }
+}
+
+console.log("The smallest number is:", smallestNumber);
+
+//    qno10
+for(let i = 1; i <= 100; i++) {
+    if(i % 5 === 0) {
+        console.log(i);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
